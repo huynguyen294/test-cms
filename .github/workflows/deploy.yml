@@ -29,4 +29,4 @@ jobs:
           local-dir: dist/ # Vite build output
           dangerous-clean-slate: true # xoá sạch trước khi upload
           exclude: |
-            cms/**
+            **/cms/**
