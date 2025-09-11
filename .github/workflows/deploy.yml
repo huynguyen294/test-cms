@@ -1,9 +1,7 @@
 name: Build & Deploy Vite to Hostinger (FTP)
 
 on:
-  push:
-    branches: [main]
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 jobs:
   deploy:
