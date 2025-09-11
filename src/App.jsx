@@ -13,7 +13,7 @@ const App = () => {
     })();
   }, []);
 
-  return <div>From cms: {data && JSON.stringify(data)}</div>;
+  return <div>Testing From cms: {data && JSON.stringify(data)}</div>;
 };
 
 export default App;
